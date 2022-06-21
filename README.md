@@ -47,6 +47,7 @@ const geo = require('geofirex').init(admin);
 With Typescript:
 
 ```ts
+import firebase from 'firebase/compat/app';
 import * as geofirex from 'geofirex'; 
 const geo = geofirex.init(firebase);
 ```
